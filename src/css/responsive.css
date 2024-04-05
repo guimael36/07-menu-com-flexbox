@@ -1,0 +1,39 @@
+@media(max-width: 1080px) {
+    .lista-menu {
+        gap: 10px;
+    }
+}
+
+@media(max-width: 1080px) {
+    .lista-menu {
+        gap: 0px;
+    }
+}
+
+@media(max-width: 850px) {
+    .lista-menu .btn {
+        padding: 5px 5px;
+        margin-right: 0px;
+}
+}
+
+@media(max-width: 720px) {
+    .header {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .logo-banco {
+        margin-left: auto;
+    }
+
+    .lista-menu {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-left: auto;
+        gap: 20px;
+    }
+}

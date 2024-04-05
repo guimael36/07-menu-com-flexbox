@@ -1,0 +1,63 @@
+html {
+    font-family: "Public Sans", sans-serif;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.link-logo:link {
+    text-decoration: none;
+    display: flex;
+    color: #000000;
+}
+
+.logo-banco {
+    width: 128px;
+    height: 64px;
+    margin-top: 45px;
+    margin-left: 45px;
+}
+
+.nome-banco {
+    display: flex;
+    font-weight: 800;
+    margin-top: 55px;
+}
+
+.lista-menu {
+    list-style-type: none;
+    margin-top: 65px;
+    font-size: 20px;
+    font-weight: 400;
+    gap: 40px;
+    display: flex;
+    text-decoration: none;
+    color: #000000;
+}
+
+.lista-menu li a {
+    padding: 7px;
+    transition: 0.3s ease-in-out;
+}
+
+.lista-menu li a:hover {
+    background-color: #5BC241;
+    color: #ffffff;
+}
+
+a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.lista-menu .btn {
+    background-color: #5BC241;
+    border-radius: 10px;
+    color: #ffffff;
+    padding: 10px 20px;
+    margin-right: 20px;
+}
+
+
